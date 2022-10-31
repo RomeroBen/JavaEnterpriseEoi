@@ -1,6 +1,10 @@
 package com.eoi;
 
 public class Cuadrado extends Figura {
+    public Cuadrado(float lado) {
+        this.lado = lado;
+    }
+
     private float lado;
 
 
